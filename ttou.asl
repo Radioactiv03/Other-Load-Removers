@@ -10,5 +10,5 @@ start
 
 split
 {
-    return(current.sceneName != (old.sceneName) && current.sceneName != ("Assets/Menu.unity") && current.sceneName != null);
+    return(current.sceneName != (old.sceneName) && current.sceneName != ("Assets/Scenes/Menu.unity") && current.sceneName != null);
 }
